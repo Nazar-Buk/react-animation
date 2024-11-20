@@ -5,4 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/react-animation/", // YOUR REPO NAME HERE
+  //закоментуй base щоб дивитися проект локально
 });
