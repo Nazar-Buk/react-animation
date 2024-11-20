@@ -1,0 +1,56 @@
+.waves-logo {
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+    button {
+      padding: 10px 25px;
+      color: snow;
+      font-weight: bold;
+      border-radius: 10px;
+
+      &:nth-child(1) {
+        background-color: #f80fec;
+      }
+
+      &:nth-child(2) {
+        background-color: #f86d0f;
+      }
+
+      &:nth-child(3) {
+        background-color: #0270f7;
+      }
+
+      &:nth-child(4) {
+        background-color: #712cf9;
+      }
+    }
+  }
+
+  .wrap-wave-logo-component {
+    overflow: clip;
+    height: 600px;
+    background-color: #111;
+
+    border: 1px solid #fff;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo-wave-text {
+      font-size: 100px;
+      font-family: "Edu AU VIC WA NT Pre";
+      color: #fff;
+      font-weight: bold;
+      position: absolute;
+      margin-bottom: 75px;
+    }
+  }
+}
