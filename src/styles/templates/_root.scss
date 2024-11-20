@@ -1,0 +1,14 @@
+.container {
+  margin-left: 15%;
+}
+
+.wrap-root-content {
+  width: 85%;
+
+  .wrap-page {
+    position: absolute;
+    width: 85%;
+    margin-top: 60px;
+    padding: 25px 10px;
+  }
+}

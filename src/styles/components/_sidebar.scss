@@ -1,0 +1,40 @@
+.sidebar {
+  position: fixed;
+  z-index: 10;
+  width: 15%;
+  height: 100vh;
+  // background-color: #364f4d;
+  background-color: #293542;
+  border-right: 1px solid #ffd700;
+  box-shadow: 11px 5px 39px -4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 11px 5px 39px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 11px 5px 39px -4px rgba(0, 0, 0, 0.5);
+
+  .logo {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+    border-bottom: 1px solid #ffd700;
+  }
+
+  nav {
+    ul.menu {
+      padding: 10px 0 0 20px;
+
+      li.menu-item {
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #fff;
+
+        i {
+          margin-right: 5px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

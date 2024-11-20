@@ -1,0 +1,12 @@
+@use "./base/_index" as base;
+
+@use "./templates/index" as templates;
+
+@use "./components/index" as components;
+
+@use "./pages/index" as pages;
+
+body {
+  // background-color: #fff;
+  // overflow-x: clip;
+}
