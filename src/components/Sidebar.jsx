@@ -13,10 +13,14 @@ const Sidebar = () => {
               <i class="material-icons">home</i> <span>Home</span>
             </li>
           </Link>
-
           <Link to="/waves">
             <li className="menu-item">
               <i class="material-icons">waves</i> Waves
+            </li>
+          </Link>
+          <Link to="/waves-logo">
+            <li className="menu-item">
+              <i class="material-icons">waves</i> Waves Logo
             </li>
           </Link>
           <li className="menu-item">
