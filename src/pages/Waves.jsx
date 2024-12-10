@@ -8,7 +8,7 @@ const Waves = () => {
   return (
     <div className="waves">
       <h1>
-        <i class="material-icons">waves</i> <span>Waves</span>
+        <span class="material-symbols-outlined">waves</span> Waves
       </h1>
       <div className="wrap-wave-component">
         <div className="Sun"></div>
