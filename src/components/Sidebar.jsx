@@ -10,24 +10,30 @@ const Sidebar = () => {
         <ul className="menu">
           <Link to="/">
             <li className="menu-item">
-              <i class="material-icons">home</i> <span>Home</span>
+              <span class="material-symbols-outlined">home</span> Home
             </li>
           </Link>
           <Link to="/waves">
             <li className="menu-item">
-              <i class="material-icons">waves</i> Waves
+              <span class="material-symbols-outlined">waves</span> Waves
             </li>
           </Link>
           <Link to="/waves-logo">
             <li className="menu-item">
-              <i class="material-icons">waves</i> Waves Logo
+              <span class="material-symbols-outlined">waves</span> Waves Logo
+            </li>
+          </Link>
+          <Link to="/slider-cube">
+            <li className="menu-item">
+              <span class="material-symbols-outlined">deployed_code</span> Cube
+              Slider
             </li>
           </Link>
           <li className="menu-item">
-            <i class="material-icons">apartment</i> Item2
+            <span class="material-symbols-outlined">apartment</span> Item2
           </li>
           <li className="menu-item">
-            <i class="material-icons">apartment</i> Item3
+            <span class="material-symbols-outlined">apartment</span> Item3
           </li>
         </ul>
       </nav>

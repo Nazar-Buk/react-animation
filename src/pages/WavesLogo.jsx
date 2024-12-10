@@ -11,7 +11,7 @@ const WavesLogo = () => {
   return (
     <div className="waves-logo">
       <h1>
-        <i class="material-icons">waves</i> <span>Waves Logo</span>
+        <span class="material-symbols-outlined">waves</span> Waves Logo
       </h1>
       <div className="buttons">
         <button onClick={() => setWavesColor("#f80fec")}>Pink</button>

@@ -10,8 +10,13 @@ h1 {
   align-items: center;
   color: teal;
 
-  i {
+  span {
     font-size: 35px;
     margin-right: 5px;
   }
+}
+
+// так можна контролювати іконки від google fonts а точніше Material Icons
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
